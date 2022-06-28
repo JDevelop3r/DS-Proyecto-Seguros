@@ -43,10 +43,4 @@
     <PackageReference Include="XunitXml.TestLogger" Version="3.0.70" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="BussinesLogic\DTOs\" />
-    <Folder Include="Persistence\DAOs\Implementations\" />
-    <Folder Include="Persistence\DAOs\Interfaces\" />
-  </ItemGroup>
-
 </Project>
