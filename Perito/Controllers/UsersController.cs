@@ -86,7 +86,8 @@ namespace Perito.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
-          if (_context.Users == null)
+
+            if (_context.Users == null)
           {
               return Problem("Entity set 'PeritoDbContext.Users'  is null.");
           }
